@@ -14,7 +14,7 @@ This is a review document for CMPUT 229 at the University of Alberta for both [N
   * [Assembly](#asmm)
   * [Circuits](#circuitsm)
   * [Marking](#marksm)
-  * Resources
+  * [Resources](#resourcem)
 * [Nelson Amaral (RISC-V assembly)](#nelson)
   * [Overview](#overviewr)
   * Resources
@@ -138,6 +138,16 @@ I have made a completed save from what has been done on the video and packaged i
 ### Marking
 
 Marks for this class include 6 quizzes (drop lowest one), 3 midterms, and a final project. The raw marks map directly to the grade you get from the regular marks table. Labs and assignments are also marked but do not count towards the final grade. These are highly recommended since they act as homework assignments, however even if you do not finish it by the hand in date, you can do them later. 
+
+<a name=resourcem></a>
+
+### Resources
+
+Bank of questions contain lots of question that should be similar to the test although that's usually not the case :( 
+
+MIPS coding patterns: [github.com/cmput229/MIPSPatterns](https://github.com/cmput229/MIPSPatterns)
+
+MIPS cheat sheet: [studocu.com/en-us/document/california-state-university-long-beach/computer-architecture/lecture-notes/mips-green-sheet-mips-instruction-set-architecture](https://www.studocu.com/en-us/document/california-state-university-long-beach/computer-architecture/lecture-notes/mips-green-sheet-mips-instruction-set-architecture/2202547/view)
 
 
 
