@@ -9,7 +9,7 @@ This is a review document for CMPUT 229 at the University of Alberta for both [N
 ## Index
 
 * [Ali Karim (MIPS assembly)](#ali)
-  * [Basics](#basicsm)
+  * [Overview](#overviewm)
   * [Architecture](#archm)
   * [Assembly](#asmm)
   * [Circuits](#circuitsm)
@@ -29,11 +29,32 @@ This is a review document for CMPUT 229 at the University of Alberta for both [N
 
 This part will be a review about MIPS assembly taught by [Ali Karim](https://karimali.ca/). This course will mostly focus on MIPS programing and is usually taught in the winter term. 
 
-<a name=basicsm></a>
+<a name=overviewm></a>
 
-### Basics
+### Overview
 
 MIPS is a assembly language that is used less and less, but is still used in some places. Not many systems support MIPS assembly out of the box so a emulator such as [QtSpim](http://spimsimulator.sourceforge.net/) is used to emulate a MIPS environment. Although MIPS is not RISC-V, they follow similar concepts such as branching, jumps, variables, etc. Most of the differences lie in the instruction set and instruction calls.
+
+#### Basics
+
+Starting at the beginning with binary representation and 2's complement notation and moving on to hexadecimal notation. 2's complement can be understood by watching the following video: [youtu.be/mRvcGijXI9w](https://youtu.be/mRvcGijXI9w). Hexadecimal can be thought of grouping the 4 digits of a binary number and combined/mapped to 1 character. The next topic that does not fit nicely into the other topics is shift operators. Shift left operators are identical to multiplying by 2 to the power of the number shifted, eg:
+
+```asm
+sll $t0, $t0, k # where k is an integer
+# is the same as $t0 <- $t0 * 2^k
+```
+
+This is exactly the same as
+
+```c++
+t0 = t0 << k // in C/C++ 
+```
+
+In actually, the number `$t0` is stored as a binary and k number of zeros are appended/added to the end of the number. 
+
+Likewise right right shifting is the same as floor dividing by 2 to the k-th power.
+
+\* Note that bits on the left or right side of the binary may be lost when shifting.
 
 
 
@@ -41,7 +62,34 @@ MIPS is a assembly language that is used less and less, but is still used in som
 
 ### Architecture 
 
-Since this is an architecture course, system architecture will be explored
+Since this is an architecture course, system architecture will be explored. MIPS executes line by line via the PC (program counter). Each instruction can be mapped directly to a 4 byte value also known as a word. Jumps/branches change the path/flow of the program. Think of this as a `goto` statement in C/C++. Using jumps/branches, conditional statements (such as **if**) and loops (such as **while loops**) may be constructed
+
+#### Computations
+
+There will be some computations with architecture such as calculating the execution time given CPU clock cycles and frequencies. Most of the calculations can be solved with the following formulas:
+
+$$\text{CPU Time}=\frac{\#instructions}{program}\times\frac{\#clock\ cycles}{instruction}\times\frac{\#seconds}{clock\ cycle}\\
+\text{CPU Time}=\frac{IC\times avg.\ CPI}{Frequency}$$
+
+Frequency = $\frac{\#clocks}{time}$
+
+CPI= $\frac{\#clocks}{\#instructions}$
+
+Execution Time = I (instructions) x CPI (cycles per instruction is usually fixed) / f (frequency)
+
+---
+
+Also note the units as
+
+time usually ns (nanosecond)
+
+CPI => cycles/instruction
+
+Frequency  = Hz (1/time) [also could be cycles]
+
+#### Stacks
+
+MIPS has stacks the grow "downwards" as it increases
 
 
 
@@ -54,6 +102,12 @@ Coding in assembly is required for this course. While some people despise assemb
 It is also important to go over some MIPS coding patterns so to better increase your coding efficiency and knowledge:
 
 [github.com/cmput229/MIPSPatterns](https://github.com/cmput229/MIPSPatterns)
+
+Also there are reference sheets that doesn't help too much when programming but are more for test taking:
+
+[studocu.com/en-us/document/california-state-university-long-beach/computer-architecture/lecture-notes/mips-green-sheet-mips-instruction-set-architecture](https://www.studocu.com/en-us/document/california-state-university-long-beach/computer-architecture/lecture-notes/mips-green-sheet-mips-instruction-set-architecture/2202547/view)
+
+Sometimes you will need to go from C to MIPS so make sure you are somewhat familiar with C
 
 
 
@@ -87,7 +141,7 @@ Marks for this class include 6 quizzes (drop lowest one), 3 midterms, and a fina
 
 ![risc-free-header](img/risc-free-header.gif)
 
-This part will be a review about RISC-V assembly taught by [Nelson Amaral](https://webdocs.cs.ualberta.ca/~amaral/). This will be a RISC-Free experience\*. This course will mostly focus on RISC-V programing and is usually taught in the fall term. 
+This part will be a review about RISC-V assembly taught by [Nelson Amaral](https://webdocs.cs.ualberta.ca/~amaral/). This course will mostly focus on RISC-V programing and is usually taught in the fall term. This will be a RISC-Free experience\*. 
 
 <a name=overviewr></a>
 
