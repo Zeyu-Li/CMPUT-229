@@ -10,6 +10,8 @@ This is a review document for CMPUT 229 at the University of Alberta for both [N
 
 * [Ali Karim (MIPS assembly)](#ali)
   * [Basics](#basicsm)
+  * [Architecture](#archm)
+  * [Assembly](#asmm)
   * [Circuits](#circuitsm)
   * [Marking](#marksm)
   * Resources
@@ -25,11 +27,33 @@ This is a review document for CMPUT 229 at the University of Alberta for both [N
 
 ## MIPS
 
-This part will be a review about MIPS assembly taught by [Ali Karim](https://karimali.ca/). 
+This part will be a review about MIPS assembly taught by [Ali Karim](https://karimali.ca/). This course will mostly focus on MIPS programing and is usually taught in the winter term. 
 
 <a name=basicsm></a>
 
 ### Basics
+
+MIPS is a assembly language that is used less and less, but is still used in some places. Not many systems support MIPS assembly out of the box so a emulator such as [QtSpim](http://spimsimulator.sourceforge.net/) is used to emulate a MIPS environment. Although MIPS is not RISC-V, they follow similar concepts such as branching, jumps, variables, etc. Most of the differences lie in the instruction set and instruction calls.
+
+
+
+<a name=archm></a>
+
+### Architecture 
+
+Since this is an architecture course, system architecture will be explored
+
+
+
+<a name=asmm></a>
+
+### Assembly
+
+Coding in assembly is required for this course. While some people despise assembly programming, after your first few takes of head bashing, it will come. The earlier you start programming in assembly the faster you will get it. I recommend coding something simple (ie Fibonacci calculator) at the start outside of the labs just so you can figure out how things work. 
+
+It is also important to go over some MIPS coding patterns so to better increase your coding efficiency and knowledge:
+
+[github.com/cmput229/MIPSPatterns](https://github.com/cmput229/MIPSPatterns)
 
 
 
@@ -43,9 +67,9 @@ Circuits discussed in this course are not complex and do not approach the diffic
 
 [![Video](http://img.youtube.com/vi/QZwneRb-zqA/0.jpg)](http://www.youtube.com/watch?v=QZwneRb-zqA "")
 
-Where the source code can be found [here](https://github.com/SebLague/Digital-Logic-Sim) and the download [here](#https://sebastian.itch.io/digital-logic-sim)
+Where the source code can be found [here](https://github.com/SebLague/Digital-Logic-Sim) and the download [here](https://sebastian.itch.io/digital-logic-sim)
 
-Although I have made a completed what has been done on the video and packaged it up [here on the release](https://github.com/Zeyu-Li/CMPUT-229/releases/tag/v1)
+I have made a completed save from what has been done on the video and packaged it up [here on the release](https://github.com/Zeyu-Li/CMPUT-229/releases/tag/v1). Just follow the instructions and note that you still need to download the game from the [itch.io page](https://sebastian.itch.io/digital-logic-sim)
 
 
 
@@ -63,7 +87,7 @@ Marks for this class include 6 quizzes (drop lowest one), 3 midterms, and a fina
 
 ## RISC-V
 
-This part will be a review about RISC-V assembly taught by [Nelson Amaral](https://webdocs.cs.ualberta.ca/~amaral/). This will be a RISC-Free experience\* 
+This part will be a review about RISC-V assembly taught by [Nelson Amaral](https://webdocs.cs.ualberta.ca/~amaral/). This will be a RISC-Free experience\*. This course will mostly focus on RISC-V programing and is usually taught in the fall term. 
 
 <a name=overviewr></a>
 
