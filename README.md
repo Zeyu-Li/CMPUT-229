@@ -45,7 +45,7 @@ Circuits discussed in this course are not complex and do not approach the diffic
 
 Where the source code can be found [here](https://github.com/SebLague/Digital-Logic-Sim) and the download [here](#https://sebastian.itch.io/digital-logic-sim)
 
-Although I have made a completed what has been done on the video and packaged it up [here on the release]
+Although I have made a completed what has been done on the video and packaged it up [here on the release](https://github.com/Zeyu-Li/CMPUT-229/releases/tag/v1)
 
 
 
@@ -53,7 +53,7 @@ Although I have made a completed what has been done on the video and packaged it
 
 ### Marking
 
-Marks for this class include 6 quizzes (drop lowest one), 3 midterms, and a final project. The raw marks directly map to the grade you get via the 
+Marks for this class include 6 quizzes (drop lowest one), 3 midterms, and a final project. The raw marks map directly to the grade you get from the regular marks table. Labs and assignments are also marked but do not count towards the final grade. These are highly recommended since they act as homework assignments, however even if you do not finish it by the hand in date, you can do them later. 
 
 
 
