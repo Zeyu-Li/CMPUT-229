@@ -89,7 +89,7 @@ Frequency  = Hz (1/time) [also could be cycles]
 
 #### Stacks
 
-MIPS has stacks the grow "downwards" as it increases
+MIPS has stacks the grow "downwards" as it increases in size
 
 
 
@@ -108,6 +108,12 @@ Also there are reference sheets that doesn't help too much when programming but 
 [studocu.com/en-us/document/california-state-university-long-beach/computer-architecture/lecture-notes/mips-green-sheet-mips-instruction-set-architecture](https://www.studocu.com/en-us/document/california-state-university-long-beach/computer-architecture/lecture-notes/mips-green-sheet-mips-instruction-set-architecture/2202547/view)
 
 Sometimes you will need to go from C to MIPS so make sure you are somewhat familiar with C
+
+#### Synchronization
+
+When two CPU threads are communicating, synchronization is used.
+
+<!-- I still have no idea how synchronization works 😭, help me Gino -->
 
 
 
