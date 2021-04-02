@@ -23,9 +23,9 @@ This is a review document for CMPUT 229 at the University of Alberta for both [N
 
 <a name=ali></a>
 
-![mips-header](img/mips-header.gif)
-
 ## MIPS
+
+![mips-header](img/mips-header.gif)
 
 This part will be a review about MIPS assembly taught by [Ali Karim](https://karimali.ca/). This course will mostly focus on MIPS programing and is usually taught in the winter term. 
 
@@ -83,9 +83,9 @@ Marks for this class include 6 quizzes (drop lowest one), 3 midterms, and a fina
 
 <a name=nelson></a>
 
-![risc-free-header](img/risc-free-header.gif)
-
 ## RISC-V
+
+![risc-free-header](img/risc-free-header.gif)
 
 This part will be a review about RISC-V assembly taught by [Nelson Amaral](https://webdocs.cs.ualberta.ca/~amaral/). This will be a RISC-Free experience\*. This course will mostly focus on RISC-V programing and is usually taught in the fall term. 
 
