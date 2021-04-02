@@ -2,24 +2,36 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-This is a review document for CMPUT 229 at the University of Alberta for both [Nelson Amaral](https://webdocs.cs.ualberta.ca/~amaral/) and [Ali Karim](https://karimali.ca/)
+This is a review document for CMPUT 229 at the University of Alberta for both [Nelson Amaral](https://webdocs.cs.ualberta.ca/~amaral/) and [Ali Karim](https://karimali.ca/). This review doc was written when school was remote so your experience may vary 😔
+
+
 
 ## Index
 
 * [Ali Karim (MIPS assembly)](#ali)
-  * Basics
+  * [Basics](#basicsm)
   * [Circuits](#circuitsm)
-  * Marking
+  * [Marking](#marksm)
+  * Resources
 * [Nelson Amaral (RISC-V assembly)](#nelson)
   * [Overview](#overviewr)
+  * Resources
 
 
 
 <a name=ali></a>
 
+![mips-header](img/mips-header.gif)
+
 ## MIPS
 
 This part will be a review about MIPS assembly taught by [Ali Karim](https://karimali.ca/). 
+
+<a name=basicsm></a>
+
+### Basics
+
+
 
 <a name=circuitsm ></a>
 
@@ -27,7 +39,9 @@ This part will be a review about MIPS assembly taught by [Ali Karim](https://kar
 
 Circuits discussed in this course are not complex and do not approach the difficulty of the compE courses. The basic overview of this part of the course can be done by watching the following video by [Sebastian Lague](https://www.youtube.com/channel/UCmtyQOKKmrMVaKuRXz02jbQ)
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/QZwneRb-zqA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/QZwneRb-zqA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+
+[![Video](http://img.youtube.com/vi/QZwneRb-zqA/0.jpg)](http://www.youtube.com/watch?v=QZwneRb-zqA "")
 
 Where the source code can be found [here](https://github.com/SebLague/Digital-Logic-Sim) and the download [here](#https://sebastian.itch.io/digital-logic-sim)
 
@@ -35,11 +49,21 @@ Although I have made a completed what has been done on the video and packaged it
 
 
 
+<a name=marksm></a>
+
+### Marking
+
+Marks for this class include 6 quizzes (drop lowest one), 3 midterms, and a final project. The raw marks directly map to the grade you get via the 
+
+
+
 <a name=nelson></a>
+
+![risc-free-header](img/risc-free-header.gif)
 
 ## RISC-V
 
-This part will be a review about RISC-V assembly taught by [Nelson Amaral](https://webdocs.cs.ualberta.ca/~amaral/). 
+This part will be a review about RISC-V assembly taught by [Nelson Amaral](https://webdocs.cs.ualberta.ca/~amaral/). This will be a RISC-Free experience\* 
 
 <a name=overviewr></a>
 
