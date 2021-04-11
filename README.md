@@ -131,6 +131,10 @@ Where the source code can be found [here](https://github.com/SebLague/Digital-Lo
 
 I have made a completed save from what has been done on the video and packaged it up [here on the release](https://github.com/Zeyu-Li/CMPUT-229/releases/tag/v1). Just follow the instructions and note that you still need to download the game from the [itch.io page](https://sebastian.itch.io/digital-logic-sim)
 
+Cheat sheet I made because the online ones are watermarked for some reason:
+
+![logic_circuit](img/logic_circuit.png)
+
 
 
 <a name=marksm></a>

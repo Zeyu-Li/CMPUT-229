@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 23.0.3, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 428.7 720" style="enable-background:new 0 0 428.7 720;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:none;stroke:#000000;stroke-width:3;stroke-linecap:round;stroke-miterlimit:10;}
+	.st1{font-family:'MyriadPro-Regular';}
+	.st2{font-size:66.9128px;}
+</style>
+<g>
+	<g>
+		<path d="M231.3,296c0,0,128,5,137,54h-121C247.3,350,246.3,300,231.3,296z"/>
+		<path d="M231.3,404c0,0,128-5,137-54h-121C247.3,350,246.3,400,231.3,404z"/>
+	</g>
+	<g>
+		<g>
+			<rect x="224.8" y="107" width="110.5" height="112.5"/>
+			<ellipse cx="334.8" cy="162.9" rx="27" ry="55.9"/>
+		</g>
+		<g>
+			<path d="M237.8,505c0,0,128,5,137,54h-121C253.8,559,252.8,509,237.8,505z"/>
+			<path d="M237.8,613c0,0,128-5,137-54h-121C253.8,559,252.8,609,237.8,613z"/>
+			<path class="st0" d="M225.8,505c9.9,0,18,24.2,18,54"/>
+			<path class="st0" d="M225.8,613c9.9,0,18-24.2,18-54"/>
+		</g>
+	</g>
+	<text transform="matrix(1 0 0 1 58.4451 586.1172)" class="st1 st2">XOR</text>
+	<text transform="matrix(1 0 0 1 77.5487 369.1172)" class="st1 st2">OR</text>
+	<text transform="matrix(1 0 0 1 53.8289 185.1172)" class="st1 st2">AND</text>
+</g>
+</svg>
