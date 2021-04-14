@@ -133,9 +133,7 @@ I have made a completed save from what has been done on the video and packaged i
 
 Cheat sheet I made because the online ones are watermarked for some reason:
 
-![logic_circuit](img/logic_circuit.png)
-
-
+<img src="img/logic_circuit.png" alt="logic_circuit" style="zoom:33%;" />
 
 <a name=marksm></a>
 
