@@ -8,14 +8,14 @@ This is a review document for CMPUT 229 at the University of Alberta for both [N
 
 ## Index
 
-* [Ali Karim (MIPS assembly)](#ali)
+* [MIPS Assembly (Ali Karim)](#ali)
   * [Overview](#overviewm)
   * [Architecture](#archm)
   * [Assembly](#asmm)
   * [Circuits](#circuitsm)
   * [Marking](#marksm)
   * [Resources](#resourcem)
-* [Nelson Amaral (RISC-V assembly)](#nelson)
+* [RISC-V Assembly(Nelson Amaral)](#nelson)
   * [Overview](#overviewr)
   * Resources
 
