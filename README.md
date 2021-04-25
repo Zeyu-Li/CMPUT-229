@@ -149,7 +149,7 @@ Bank of questions contain lots of question that should be similar to the test al
 
 MIPS coding patterns: [github.com/cmput229/MIPSPatterns](https://github.com/cmput229/MIPSPatterns)
 
-MIPS cheat sheet: [studocu.com/en-us/document/california-state-university-long-beach/computer-architecture/lecture-notes/mips-green-sheet-mips-instruction-set-architecture](https://www.studocu.com/en-us/document/california-state-university-long-beach/computer-architecture/lecture-notes/mips-green-sheet-mips-instruction-set-architecture/2202547/view)
+MIPS cheat sheet: [inst.eecs.berkeley.edu/~cs61c/resources/MIPS_Green_Sheet.pdf](https://inst.eecs.berkeley.edu/~cs61c/resources/MIPS_Green_Sheet.pdf)
 
 
 
