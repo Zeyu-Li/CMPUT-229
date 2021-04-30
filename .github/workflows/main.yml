@@ -1,0 +1,17 @@
+name: Upload Document as Artifact
+
+on: [push]
+
+env:
+  GITHUB_TOKEN: ${{ github.token }}
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    name: Publish Document
+    steps:
+    - name: Publish Markdown As PDF
+      uses: shrink/actions-document-publish@v1
+      id: publish-to-pdf
+      with:
+        sources: 'README.md'
