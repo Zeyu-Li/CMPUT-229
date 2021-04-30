@@ -1,6 +1,6 @@
 # Review of CMPUT 229
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) ![badge](https://github.com/Zeyu-Li/CMPUT-229/workflows/Convert Markdown to PDF/badge.svg)
 
 This is a review document for CMPUT 229 at the University of Alberta for both [Nelson Amaral](https://webdocs.cs.ualberta.ca/~amaral/) and [Ali Karim](https://karimali.ca/). This review doc was written when school was remote so your experience may vary. 😔
 
