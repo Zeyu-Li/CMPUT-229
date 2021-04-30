@@ -172,7 +172,7 @@ This part will be a review about RISC-V assembly taught by [Nelson Amaral](https
 
 ### Overview
 
-RISC-V is an open standard ISA first developped in UC Berkley. Many companies such as Western Digital and SiFive are using RISC-V in their products. [RARS](https://github.com/TheThirdOne/rars) is used to emulate a RISC-V environment.
+RISC-V is an open standard ISA first developped in UC Berkley. Many companies such as Western Digital and SiFive are using RISC-V in their products. [RARS](https://github.com/TheThirdOne/rars) is used to emulate a RISC-V environment and is used for labs.
 
 
 <a name=resourcer></a>
@@ -183,7 +183,7 @@ RISC-V is an open standard ISA first developped in UC Berkley. Many companies su
 ## Authors
 
 * [Andrew Li](https://github.com/Zeyu-Li) - 229 (Karim) student
-* [Gino Segura](https://github.com/giancarlopernudisegura) - 229 (Nelson) student + 229 TA for Karim
+* [Giancarlo Pernudi Segura](https://github.com/giancarlopernudisegura) - 229 (Nelson) student + 229 TA for Karim
 
 
 
