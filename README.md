@@ -18,7 +18,7 @@ This is a review document for CMPUT 229 at the University of Alberta for both [N
   * [Resources](#resourcem)
 * [RISC-V Assembly(Nelson Amaral)](#nelson)
   * [Overview](#overviewr)
-  * Resources
+  * [Resources](#resourcer)
 
 
 <a name=bin></a>
@@ -154,12 +154,9 @@ When two CPU threads are communicating, synchronization is used.
 <a name=resourcem></a>
 
 ### Resources
-
-Bank of questions contain lots of question that should be similar to the test although that's usually not the case :( 
-
-MIPS coding patterns: [github.com/cmput229/MIPSPatterns](https://github.com/cmput229/MIPSPatterns)
-
-MIPS cheat sheet: [inst.eecs.berkeley.edu/~cs61c/resources/MIPS_Green_Sheet.pdf](https://inst.eecs.berkeley.edu/~cs61c/resources/MIPS_Green_Sheet.pdf)
+Bank of questions contain lots of question that should be similar to the test although that's usually not the case :(
++ [MIPS coding patterns](https://github.com/cmput229/MIPSPatterns)
++ [MIPS cheat sheet](https://inst.eecs.berkeley.edu/~cs61c/resources/MIPS_Green_Sheet.pdf)
 
 
 
@@ -175,9 +172,13 @@ This part will be a review about RISC-V assembly taught by [Nelson Amaral](https
 
 ### Overview
 
-<!-- TODO: Gino! -->
+RISC-V is an open standard ISA first developped in UC Berkley. Many companies such as Western Digital and SiFive are using RISC-V in their products. [RARS](https://github.com/TheThirdOne/rars) is used to emulate a RISC-V environment.
 
 
+<a name=resourcer></a>
+
+### Resources
++ [RISC-V cheat sheet](https://inst.eecs.berkeley.edu/~cs61c/resources/RISCV_Green_Sheet.pdf)
 
 ## Authors
 
