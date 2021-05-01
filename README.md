@@ -85,12 +85,6 @@ Cheat sheet I made because the online ones are watermarked for some reason:
 
 <img src="img/logic_circuit.png" alt="logic_circuit" style="zoom:33%;" />
 
-<a name=marksm></a>
-
-### Marking
-
-Marks for this class include 6 quizzes (drop lowest one), 3 midterms, and a final project. The raw marks map directly to the grade you get from the regular marks table. Labs and assignments are also marked but do not count towards the final grade. These are highly recommended since they act as homework assignments, however even if you do not finish it by the hand in date, you can do them later. 
-
 
 <a name=ali></a>
 
@@ -150,6 +144,13 @@ When two CPU threads are communicating, synchronization is used.
 
 <!-- I still have no idea how synchronization works 😭, help me Gino -->
 
+<a name=marksm></a>
+
+### Marking
+
+Marks for this class include 6 quizzes (drop lowest one), 3 midterms, and a final project. The raw marks map directly to the grade you get from the regular marks table. Labs and assignments are also marked but do not count towards the final grade. These are highly recommended since they act as homework assignments, however even if you do not finish it by the hand in date, you can do them later. 
+
+\* The final for this course is notoriously difficult. Most people take in excess of 40 hours to complete it, so start this as soon as possible
 
 <a name=resourcem></a>
 
