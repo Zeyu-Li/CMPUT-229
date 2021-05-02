@@ -1,4 +1,4 @@
-# see https://github.com/marketplace/actions/publish-markdown-as-pdf
+# see https://github.com/BaileyJM02/markdown-to-pdf
 
 name: Convert Markdown to PDF
 on: 
@@ -10,24 +10,27 @@ env:
   GITHUB_TOKEN: ${{ github.token }}
 
 jobs:
-  publish:
+  toPDF:
+    name: Build PDF
     runs-on: ubuntu-latest
-    name: Publish Document
     steps:
-      - name: Checkout
-        uses: actions/checkout@v2
-
-      - name: Publish Markdown As PDF
-        uses: shrink/actions-document-publish@v1
-        id: publish-document
+      - uses: actions/checkout@v2
+      - uses: baileyjm02/markdown-to-pdf@v1
         with:
-          sources: 'README.md'
+          input_dir: ./
+          output_dir: ./
+          images_dir: ./images
+          # for example <img src="./images/file-name.png">
+          image_import: ./images
+          # Default is true, can set to false to only get PDF files
+          build_html: false
 
       - name: Commits File 
         uses: EndBug/add-and-commit@v7
         with: 
-          add: ${{ steps.publish-document.outputs.pdf }}
+          add: 'README.pdf'
           author_name: ${{ secrets.GH_NAME }}
           author_email: ${{ secrets.GH_EMAIL }}
           message: 'Updated pdf'
           push: true 
+      
