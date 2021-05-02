@@ -12,14 +12,16 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v2
+
       - name: Publish Markdown As PDF
         uses: shrink/actions-document-publish@v1
-        id: publish-to-pdf
+        id: publish-document
         with:
           sources: 'README.md'
-      - name: Upload Document
+
+      - name: Save PDF
         uses: actions/upload-artifact@v2
         id: upload-document
         with:
-          name: 'README.pdf'
-          path: ${{ steps.publish-document.outputs.pdf }}
+          name: 'PDF'
+          path: 'README.pdf'
