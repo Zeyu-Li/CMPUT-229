@@ -1,7 +1,11 @@
 # see https://github.com/marketplace/actions/publish-markdown-as-pdf
 
 name: Convert Markdown to PDF
-on: [push]
+on: 
+  push:
+    branches:
+      - master
+      - test
 env:
   GITHUB_TOKEN: ${{ github.token }}
 
@@ -23,5 +27,14 @@ jobs:
         uses: actions/upload-artifact@v2
         id: upload-document
         with:
-          name: 'PDF'
+          name: 'README PDF'
           path: 'README.pdf'
+
+      - name: Commits File 
+        uses: EndBug/add-and-commit@v7
+        with: 
+          add: 'README.pdf'
+          author_name: ${{ secrets.GH_NAME }}
+          author_email: ${{ secrets.GH_EMAIL }}
+          message: 'Updated pdf'
+          push: true 
