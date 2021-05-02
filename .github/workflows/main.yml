@@ -23,17 +23,10 @@ jobs:
         with:
           sources: 'README.md'
 
-      - name: Save PDF
-        uses: actions/upload-artifact@v2
-        id: upload-document
-        with:
-          name: 'README PDF'
-          path: 'README.pdf'
-
       - name: Commits File 
         uses: EndBug/add-and-commit@v7
         with: 
-          add: 'README.pdf'
+          add: ${{ steps.publish-document.outputs.pdf }}
           author_name: ${{ secrets.GH_NAME }}
           author_email: ${{ secrets.GH_EMAIL }}
           message: 'Updated pdf'
