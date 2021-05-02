@@ -1,4 +1,5 @@
 # see https://github.com/BaileyJM02/markdown-to-pdf
+# CANNOT DO INLINE LATEX :(
 
 name: Convert Markdown to PDF
 on: 
@@ -33,4 +34,3 @@ jobs:
           author_email: ${{ secrets.GH_EMAIL }}
           message: 'Updated pdf'
           push: true 
-      
