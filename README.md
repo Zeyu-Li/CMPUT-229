@@ -23,7 +23,7 @@ This is a review document for CMPUT 229 at the University of Alberta for both [N
 
 <a name=bin></a>
 
-## Binary
+## Binary 💾
 Starting at the beginning with binary representation and 2's complement notation and moving on to hexadecimal notation. 2's complement can be understood by watching [the following video](https://youtu.be/mRvcGijXI9w). Hexadecimal can be thought of grouping the 4 digits of a binary number and combined/mapped to 1 character.
 
 ### Floating point numbers
@@ -34,11 +34,11 @@ When talking about floating point numbers, we usually use the [IEEE 754](https:/
 
 <a name=archm></a>
 
-## Architecture 
+## Architecture 🔧
 
 Since this is an architecture course, system architecture will be explored. Each instruction can be mapped directly to a 4 byte value also known as a word. Both MIPS and RISC-V execute word by word via the PC (program counter). Jumps/branches change the path/flow of the program. Think of this as a `goto` statement in C/C++. Using jumps/branches, conditional statements (such as **if**) and loops (such as **while loops**) may be constructed
 
-### Computations
+### Computations 
 
 There will be some computations with architecture such as calculating the execution time given CPU clock cycles and frequencies. Most of the calculations can be solved with the following formulas:
 
@@ -69,7 +69,7 @@ Both MIPS and RISC-V have stacks that grow "downwards" as it increases in size.
 
 <a name=circuitsm ></a>
 
-## Circuits
+## Circuits 💫
 
 Circuits discussed in this course are not complex and do not approach the difficulty of the compE courses. The basic overview of this part of the course can be done by watching the following video by [Sebastian Lague](https://www.youtube.com/channel/UCmtyQOKKmrMVaKuRXz02jbQ)
 
