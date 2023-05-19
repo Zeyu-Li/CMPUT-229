@@ -27,7 +27,7 @@ This is a review document for CMPUT 229 at the University of Alberta for both [N
 Starting at the beginning with binary representation and 2's complement notation and moving on to hexadecimal notation. 2's complement can be understood by watching [the following video](https://youtu.be/mRvcGijXI9w). Hexadecimal can be thought of grouping the 4 digits of a binary number and combined/mapped to 1 character.
 
 ### Floating point numbers
-Floating point numbers are a way to represent decimal numbers. A major limitation of the accuracy which will also depend on the magnitude of the number itself. A floating point number is divided into 3 sections and is inspired by the scientific notation but adapted for binary. The first section is 1-bit and represents the sign of the nubmer (positive or negative). The second section (length varies on implementation) is the exponent. The third section (length varies on implementation) is the significand.
+Floating point numbers are a way to represent decimal numbers. A major limitation of the accuracy which will also depend on the magnitude of the number itself. A floating point number is divided into 3 sections and is inspired by the scientific notation but adapted for binary. The first section is 1-bit and represents the sign of the number (positive or negative). The second section (length varies on implementation) is the exponent. The third section (length varies on implementation) is the significand.
 
 When talking about floating point numbers, we usually use the [IEEE 754](https://en.wikipedia.org/wiki/IEEE_754) standard. You use [this tool](https://www.h-schmidt.net/FloatConverter/IEEE754.html) to play around with floating point numbers and understand how they work.
 
@@ -92,13 +92,13 @@ Cheat sheet I made because the online ones are watermarked for some reason:
 
 ![mips-header](img/mips-header.gif)
 
-This part will be a review about MIPS assembly taught by [Ali Karim](https://karimali.ca/). This course will mostly focus on MIPS programing and is usually taught in the winter term. 
+This part will be a review about MIPS assembly taught by [Ali Karim](https://karimali.ca/). This course will mostly programming and is usually taught in the winter term. 
 
 <a name=overviewm></a>
 
 ### Overview
 
-MIPS is a assembly language that is used less and less, but is still used in some places. Not many systems support MIPS assembly out of the box so a emulator such as [QtSpim](http://spimsimulator.sourceforge.net/) is used to emulate a MIPS environment. Although MIPS is not RISC-V, they follow similar concepts such as branching, jumps, variables, etc. Most of the differences lie in the instruction set and instruction calls.
+MIPS is an assembly language that is used less and less, but is still used in some places. Not many systems support MIPS assembly out of the box so an emulator such as [QtSpim](http://spimsimulator.sourceforge.net/) is used to emulate a MIPS environment. Although MIPS is not RISC-V, they follow similar concepts such as branching, jumps, variables, etc. Most of the differences lie in the instruction set and instruction calls.
 
 #### Basics
 
@@ -115,7 +115,7 @@ This is exactly the same as
 t0 = t0 << k // in C/C++ 
 ```
 
-In actually, the number `$t0` is stored as a binary and k number of zeros are appended/added to the end of the number. 
+In actuality, the number `$t0` is stored as a binary and k number of zeros are appended/added to the end of the number. 
 
 Likewise right right shifting is the same as floor dividing by 2 to the k-th power.
 
